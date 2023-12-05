@@ -1,8 +1,12 @@
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Next file sharing</h1>
-    </main>
+    <>
+      <Header />
+      <h1 className="w-1/2 p-2 mx-auto text-2xl italic text-center border underline-offset-2">
+        Next file sharing
+      </h1>
+    </>
   );
 }
