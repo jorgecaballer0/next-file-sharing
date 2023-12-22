@@ -9,7 +9,6 @@ const Header = () => {
             <div className="md:flex md:items-center md:gap-12">
               <Image src="/logo.svg" width={150} height={100} alt="Logo" />
             </div>
-
             <div className="hidden md:block">
               <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-sm">
@@ -21,7 +20,6 @@ const Header = () => {
                       Home
                     </a>
                   </li>
-
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
@@ -30,7 +28,6 @@ const Header = () => {
                       Upload
                     </a>
                   </li>
-
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
@@ -39,7 +36,6 @@ const Header = () => {
                       About Us
                     </a>
                   </li>
-
                   <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
@@ -51,7 +47,6 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
                 <a
@@ -60,7 +55,6 @@ const Header = () => {
                 >
                   Get Started
                 </a>
-
                 <div className="hidden sm:flex">
                   <a
                     className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
@@ -70,7 +64,6 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-
               <div className="block md:hidden">
                 <button className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
                   <svg

@@ -12,11 +12,9 @@ const Hero = () => {
               <span className="text-primary">Share</span> your files in one
               place
             </h1>
-
             <p className="mt-4 text-gray-500 sm:text-xl/relaxed">
               {Constantes.desc}
             </p>
-
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <a
                 className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-primary hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
@@ -24,7 +22,6 @@ const Hero = () => {
               >
                 Get Started
               </a>
-
               <a
                 className="block w-full px-12 py-3 text-sm font-medium rounded shadow text-primary hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
                 href="/about"
