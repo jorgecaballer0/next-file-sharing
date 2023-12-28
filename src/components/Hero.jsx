@@ -12,7 +12,7 @@ const Hero = () => {
               <span className="text-primary">Share</span> your files in one
               place
             </h1>
-            <p className="mt-4 text-gray-500 sm:text-xl/relaxed">
+            <p className="mt-4 font-bold text-gray-500 sm:text-xl/relaxed">
               {Constantes.desc}
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-8">
